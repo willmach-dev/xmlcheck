@@ -18,16 +18,16 @@ def procurar_em_xml(arquivo, alvo):
     return False  # Não encontrou a linha
 
 # Diretório de origem contendo os arquivos XML
-diretorio_origem = r'C:\Users\william.machado\Desktop\XML\arquivos'
+diretorio_origem = r'C:\Users\User\Desktop\XML\arquivos' # Alterar o User
 
 # Diretório de destino para os arquivos que contêm a string
-diretorio_destino = r'C:\Users\william.machado\Desktop\XML\resultado'
+diretorio_destino = r'C:\Users\User\Desktop\XML\resultado'  # Alterar o User
 
 # Diretório de destino para os arquivos que **não** contêm a string
-diretorio_destino_nao_encontrados = r'C:\Users\william.machado\Desktop\XML\outros'
+diretorio_destino_nao_encontrados = r'C:\Users\User\Desktop\XML\outros'  # Alterar o User
 
 # String que você deseja procurar nos arquivos XML
-alvo = 'COMAR LOGISTICA LTDA'
+alvo = 'EMPRESA DE LOGISTICA LTDA'
 
 # Lista para armazenar os arquivos que contêm a string
 arquivos_com_alvo = []
